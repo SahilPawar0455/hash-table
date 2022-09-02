@@ -2,7 +2,7 @@ package com.bridgelabz;
 import java.util.Arrays;
 import java.util.Hashtable;
 public class HashTable {
-    public static Hashtable<String,Integer> hashtable = new Hashtable<>();
+    public Hashtable<String,Integer> hashtable = new Hashtable<>();
     public void frequency(String sentances){
         String[] meassagesArray = sentances.toLowerCase().split(" ");
         System.out.println(Arrays.stream(meassagesArray).toList());

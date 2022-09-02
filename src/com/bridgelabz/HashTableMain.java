@@ -11,5 +11,7 @@ public class HashTableMain {
         HashTable hashTable1 = new HashTable();
         hashTable1.frequency(paragraph);
         hashTable1.display();
+        hashTable1.removeWord("avoidable");
+        hashTable1.display();
     }
 }

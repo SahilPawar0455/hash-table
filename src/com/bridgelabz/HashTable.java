@@ -19,4 +19,8 @@ public class HashTable {
     public void display(){
         System.out.println(hashtable.toString());
     }
+
+    public void removeWord(String word) {
+        hashtable.remove(word);
+    }
 }
